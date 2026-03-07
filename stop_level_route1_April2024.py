@@ -192,7 +192,7 @@ def find_best_matches_with_stop_level(app_profile, system_profile, app_stop_prof
 
     final_cols = [
         'AppID', 'SystemID', 'Level_of_Confidence', 'IoU', 'Containment',
-        'Ratio_Within_2Min', 'Max_Stop_Diff', 'Common_Stops',  # ⭐新增了这三个教授最想看的验证列
+        'Ratio_Within_2Min', 'Max_Stop_Diff', 'Common_Stops',  
         'App_Start_Time', 'App_End_Time', 'Sys_Start_Time', 'Sys_End_Time',
         'App_Days_Occurs', 'System_Days_Occurs'
     ]
@@ -237,4 +237,5 @@ if __name__ == "__main__":
 
         OUTPUT_CSV_PATH = "route1_final_output_stop_validated.csv"
         final_best_matches.to_csv(OUTPUT_CSV_PATH, index=False)
-        print(f"\n✅ SUCCESS: Stop-level validated table saved to '{OUTPUT_CSV_PATH}'")
+
+        print(f"\n SUCCESS: Stop-level validated table saved to '{OUTPUT_CSV_PATH}'")
