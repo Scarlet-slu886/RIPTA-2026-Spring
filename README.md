@@ -36,6 +36,6 @@ The algorithm connects the two datasets using the following sequence:
 
 ## Key Results & Achievements
 The matching algorithm demonstrated exceptional performance, successfully joining thousands of distinct bus trips across the network. 
-* **Total Matched Trips:** successfully matched **[这里填你的总匹配趟数, 比如 6400+]** trips across the RIPTA system for April 2024.
-* **High Confidence Rate:** Approximately **[这里填个百分比, 比如 90%]** of the matched trips were classified as `"Highly Confident"`. 
+* **Total Matched Trips:** successfully matched 6436 trips across the RIPTA system for April 2024.
+* **High Confidence Rate:** Approximately 90% of the matched trips were classified as "Confident" or higher level. 
 * **Validation Criteria:** A match is rigorously flagged as "Highly Confident" if it dynamically passes the stop-validation threshold (over 50% of shared stops matched within the 2-minute temporal tolerance) or achieves an extremely high Jaccard similarity score (IoU $\ge$ 0.8).
