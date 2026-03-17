@@ -17,7 +17,7 @@ These two datasets are recorded and stored independently in different systems. H
 
 ### Summary / Results
 * `Match_Summary_Overview.csv`: The output summary table showing the execution status and total number of successfully matched trips for each route.
-* `OTP_Comparison_Scatter.png`: A scatter plot visualizing the On-Time Performance analysis derived from the final matched dataset.
+* `OTP_Comparison_Scatter.png`: A scatter plot visualizing the weighted and unweighted On-Time Performance analysis derived from the final matched dataset.
 
 ## Core Matching Logic
 The algorithm connects the two datasets using the following sequence:
