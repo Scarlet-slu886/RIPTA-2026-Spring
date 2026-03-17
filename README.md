@@ -39,3 +39,11 @@ The matching algorithm demonstrated exceptional performance, successfully joinin
 * **Total Matched Trips:** successfully matched 6436 trips across the RIPTA system for April 2024.
 * **High Confidence Rate:** Approximately 90% of the matched trips were classified as "Confident" or higher level. 
 * **Validation Criteria:** A match is rigorously flagged as "Highly Confident" if it dynamically passes the stop-validation threshold (over 50% of shared stops matched within the 2-minute temporal tolerance) or achieves an extremely high Jaccard similarity score (IoU $\ge$ 0.8).
+
+
+## Future Work (Post-Spring Break)
+With the foundational matching pipeline completed, the next phase of this research will shift from data integration to advanced network analysis, specifically focusing on **Driver Transition and Route Switching behaviors**.
+
+* **Graph Modeling:** Modeling the RIPTA transit network as a large-scale directed graph (estimated ~40k nodes representing trips/stops/events, and edges representing possible driver transitions).
+* **Transition Metrics:** Analyzing switching patterns between routes, calculating median transition times, and evaluating how ridership demand influences driver switching behaviors.
+* **Network Clustering:** Applying graph clustering algorithms to partition the complex system into smaller, localized sub-problems to uncover distinct operational patterns.
