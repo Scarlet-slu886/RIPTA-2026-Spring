@@ -1,6 +1,5 @@
 # RIPTA-2026-Spring
 
-# RIPTA Transit Data Matching
 
 ## Background & Project Goal
 This project integrates two separate datasets from the Rhode Island Public Transit Authority (RIPTA):
